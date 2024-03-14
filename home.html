@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh - personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+                   
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+           background-image: url(tr3.4.jpg);
+           background-position: center;
+            background-size: cover;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: #002730;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(175, 35, 175);
+            font-size: 1.05rem;
+            text-shadow: 0 0 2px rgb(175, 35, 175);
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-family: 'dancing script';
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+
+        }
+
+        .rightsection {
+            margin: 20px 0;
+        }
+
+        .rightsection img {
+            border-radius: 50%;
+            border: 5px solid;
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 59px cyan;
+        }
+
+        .purple {
+            color: rgb(129, 10, 129);
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .grey {
+            color: gray;
+        }
+
+        .second .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .second .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 98px;
+        }
+
+        .ver_desc {
+            position: relative;
+            top: 100px;
+            width: 150px;
+            font-size: 9px;
+            color: white;
+        }
+
+        .ver_title {
+            position: relative;
+            top: 95px;
+            width: 100px;
+
+        }
+
+        footer {
+            height: 150px;
+            background-color: #002730;
+
+
+        }
+
+        .footer {
+
+            display: flex;
+            margin: 23px 122px;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+
+        .footer4 {
+            text-align: center;
+        }
+
+        button {
+            padding: 23px;
+            color: white;
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+            background-color: rgb(35, 142, 142);
+            border: 2px solid white;
+            font-size: 15px;
+        }
+
+        .btn button a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                RITESH'S PORTFOLIO
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:3000/home.html"> HOME</a></li>
+                    <li><a href="http://127.0.0.1:3000/about.html">ABOUT</a></li>
+                    <li><a href="http://127.0.0.1:3000/g.html"> PASSION GALLERY</a></li>
+                    <li> <a href="http://127.0.0.1:3000/resume.html"> RESUME</a></li>
+                    <li><a href="http://127.0.0.1:3000/contact.html"> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                HI. MY NAME IS <span class="purple">RITESH RAINA</span>.
+                <div>
+
+                    <span id="element"></span>
+                </div>
+                <div class="btn">
+                    <button><a
+                            href="https://www.linkedin.com/in/ritesh-raina-2a3a5a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LINKEDIN
+                            PROFILE</a> </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="imge2.png.png" alt style="width: 80%; ">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="grey">WHAT I HAVE LEARNT SO FAR</span>
+            <h1>
+                CORE SUBJECTS AND TECHNICAL SKILLS
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="ver_title">
+                        DATA STRUCTURE
+                    </div>
+                    <div class="ver_desc">
+                        Data structures are ways of organizing and storing data to perform operations efficiently. They
+                        define the relationship between the data, and the operations that can be performed on the data.
+                        Common examples of data structures include arrays, linked lists, stacks, queues, trees, and
+                        graphs. The choice of a data structure depends on the type of problem and the operations that
+                        need to be performed.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="ver_title">
+                        NETWORK & DATA COMM
+                    </div>
+                    <div class="ver_desc">
+                        Data communication refers to the exchange of data between devices through a medium, such as
+                        cables or wireless signals. Networking involves connecting multiple devices to enable
+                        communication and resource sharing. Together, data communication and networking are critical
+                        components of modern information systems.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="ver_title">
+                        OOPS - JAVA/C++
+                    </div>
+                    <div class="ver_desc">
+                        Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of
+                        "objects," which encapsulate data and behavior. Java is a popular programming language that
+                        extensively uses OOP principles.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="ver_title">
+                        OPERATING SYSTEM
+                    </div>
+                    <div class="ver_desc">
+                        An operating system (OS) is a software layer that acts as an intermediary between computer
+                        hardware and user applications. It provides essential services and manages resources to enable
+                        efficient execution of programs.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="ver_title">
+                        DATABASE MANAGEMENT
+                    </div>
+                    <div class="ver_desc">
+                        Database Management involves the efficient and organized handling of data within a structured
+                        storage system.It Manages data storage, retrieval, and manipulation, ensuring data integrity and
+                        security.
+                    </div>
+                </div>
+
+
+
+                <div class="vertical">
+                    <div class="ver_title">
+                        WEB DEV
+                    </div>
+                    <div class="ver_desc">
+                        Web development involves the creation and maintenance of websites or web applications,
+                        encompassing various aspects of designing, coding, and managing content on the World Wide Web.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>RITESH PORTFOLIO</h3>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li>HOME </li>
+                    <li>ABOUT </li>
+                    <li>GALLERY </li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <ul>
+                    <li>HOME </li>
+                    <li>ABOUT </li>
+                    <li>GALLERY </li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer4">
+            WWW.RITESH-PORTFOLIO.COM
+        </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WELCOME TO MY WEBSITE!', 'VISIT THE CONTENT!', 'HAVE A NICE DAY!'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
